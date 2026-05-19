@@ -1,5 +1,23 @@
 # Impact of Social Media on Mental Health
 
+## (Table of Contents)
+* [Project Mission](#project-mission)
+* [About the Project](#about-the-project)
+* [Data Sources](#data-sources)
+* [Data Privacy](#data-privacy)
+* [Data Cleaning Challenges](#data-cleaning-challenges)
+* [Data Transformation & Preprocessing](#data-transformation--preprocessing)
+* [Data Normalization](#data-normalization)
+* [Data Modeling](#data-modeling)
+* [Data Analysis & Validation (SQL & Supabase)](#data-analysis--validation-sql--supabase)
+* [Visualization (Interactive Dashboards By Power BI)](#visualization-interactive-dashboards-by-power-bi)
+* [Key Insights Findings](#key-insights-findings)
+* [Scientific Research & Literature Review](#scientific-research--literature-review)
+* [Practical Solutions for Digital Well-being](#practical-solutions-for-digital-well-being)
+* [Team Members](#team-members)
+
+---
+
 ## Project Mission
 The main goal of this project is to improve daily life by understanding how social media affects us. By looking at real data, we aim to find ways to help people reduce their time online and focus more on their physical health and real-life social connections. This project is about moving toward a healthier, more balanced lifestyle in a digital world.
 
@@ -26,17 +44,13 @@ Working with real-world data is rarely perfect. During the cleaning process, we 
 * **Incomplete Forms:** We managed cases where people did not finish the survey to ensure the final analysis remained fair and consistent.
 * **Formatting:** We worked to make sure the survey answers matched the structure of the data we found on Kaggle so they could be studied together.
 
-
-
-### **Data Transformation & Preprocessing**
----
+### <a name="data-transformation--preprocessing"></a>**Data Transformation & Preprocessing**
 
 To handle the data cleaning challenges programmatically and transform raw survey responses into structured, analyzable data, we developed a unified Python script:
 
 **[Survey_Optimization](https://github.com/yossefhaytham/Population-Health/blob/main/Script_Preprocessing/Survey_Optimization.py):**  This script serves as the primary data integration and cleaning pipeline. It automates the following key tasks:
 
 * **Translation & Integration**: It translates Arabic categorical responses into standardized English using comprehensive nested dictionaries and merges the dual-language sources into one uniform dataset.
-
 * **Automated Data Cleaning**: It targets text-entry fields (like the "Apps" column) to fix user errors, strip extra spaces, and unify inconsistent spellings.
 
 By streamlining these steps into a single workflow, we ensure our analysis and final dashboards are built on a consistent and error-free data foundation.
@@ -74,7 +88,8 @@ The data model connects all dimensions to the central fact table, enabling flexi
 This phase focuses on converting qualitative survey responses into a quantitative framework for deeper behavioral analysis.
 
 * **Weighted Data Transformation:** Standardized textual ranges (e.g., "1-3 hours") by mapping them to numerical midpoints. This allows for precise mathematical aggregation and statistical modeling.
-* **Advanced Feature Engineering:** * **Social Media Intensity:** Created a ratio to measure social media's "share of attention" relative to total screen time, then categorized it into levels (Low to Extreme).
+* **Advanced Feature Engineering:** 
+    * **Social Media Intensity:** Created a ratio to measure social media's "share of attention" relative to total screen time, then categorized it into levels (Low to Extreme).
     * **Risk Flagging:** Developed logic to identify critical behavioral overlaps, such as **"High Screen + Low Sleep"** and **"High Doomscrolling + Sleep Deprivation"** using binary encoding (0/1).
 * **Data Integrity & Casting:** Optimized the dataset by converting object types into categorical data, reducing memory usage and ensuring consistency for visual reporting tools.
 
@@ -88,7 +103,8 @@ This stage involves the creation of complex, high-level psychological indices to
 * **Psychological Indexing:** Developed proprietary formulas to quantify abstract concepts:
     * **Reality Disconnection Risk:** A ratio of virtual engagement (Social Media) vs. physical/productive activities (Sports, Work, Study).
     * **Emotional Cost Ratio:** A derived metric calculating the increase in **Anxiety and Overthinking** per hour of digital consumption.
-* **Lifestyle Stress Modeling:** * **Productivity Distraction Index:** Combined "Night Browsing Rate" with "Social Media Hours" to evaluate the impact on daily focus and work efficiency.
+* **Lifestyle Stress Modeling:** 
+    * **Productivity Distraction Index:** Combined "Night Browsing Rate" with "Social Media Hours" to evaluate the impact on daily focus and work efficiency.
     * **Sleep Quality Risk:** Modeled the inverse relationship between late-night digital habits and actual recovery time.
 * **Correlation & Validation:** Executed a multi-variable correlation analysis (Heatmaps) to validate the model's logic, confirming strong links between screen habits, mood instability, and mental fatigue.
 * **Dynamic Binning:** Transformed raw numerical outputs into interpretable risk tiers (Young, Core, Mature, Older Gen-Z), making the data actionable for targeted wellness strategies.
@@ -119,9 +135,7 @@ We executed a series of complex SQL queries to extract deep insights from both t
 * **Productivity & Mood:** Analyzing how productivity risk levels and sleep quality impact overall mood stability and motivation.
 * **Socio-Digital Comparison:** Exploring the "Social Comparison Index" across different age groups and social media usage levels.
 
-
 ## Visualization (Interactive Dashboards By Power BI)
-
 
 The final stage of our project transforms the validated data into actionable insights through interactive Power BI dashboards. We developed **four dedicated dashboards** to provide a comprehensive view of the findings.
 
@@ -148,8 +162,6 @@ The final stage of our project transforms the validated data into actionable ins
 ---
 
 ## Key Insights Findings
-
-
 
 ### Local Insights (Egypt Survey)
 
@@ -188,11 +200,7 @@ The findings of this project are supported by established scientific studies tha
 * **Mental Outcomes:** Participants experienced a significant increase in focus and self-control.
 * **Social Impact:** The study successfully challenged the "FOMO" (Fear Of Missing Out) myth, with participants replacing digital browsing with genuine social connections, physical exercise, and reading.
 
-
-
 ## Practical Solutions for Digital Well-being
-
-
 
 Based on the synthesis of our data analysis and the aforementioned scientific research, we propose five actionable strategies to optimize digital habits:
 
