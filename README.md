@@ -14,6 +14,7 @@
 * [Key Insights Findings](#key-insights-findings)
 * [Scientific Research & Literature Review](#scientific-research--literature-review)
 * [Practical Solutions for Digital Well-being](#practical-solutions-for-digital-well-being)
+* [Web Application](#web-application)
 * [Team Members](#team-members)
 
 ---
@@ -188,13 +189,13 @@ The final stage of our project transforms the validated data into actionable ins
 
 The findings of this project are supported by established scientific studies that examine the direct impact of digital consumption on mental performance and psychological health.
 
-### 1. [Social Media Detox and Youth Mental Health](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2804561) (JAMA Network Study)
+### 1. [Social Media Detox and Youth Mental Health](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2841773/) (JAMA Network Study)
 * **Objective:** Analyzing the impact of digital behavior on the mental health of young adults (aged 18-24).
 * **Methodology:** Utilizing "Digital Phenotypes" and EMA (Ecological Momentary Assessment) to accurately track real-time behavior.
 * **Experiment:** Reducing social media usage to a strict limit of 30 minutes per day.
 * **Results:** Within just one week, researchers observed significant improvements in mental well-being. The study recorded a marked reduction in symptoms of anxiety, depression, and sleep disturbances.
 
-### 2. [Blocking mobile internet on smartphones improves sustained attention](https://academic.oup.com/pnasnexus/article/3/1/pgad441/7511740) (PNAS Nexus Study)
+### 2. [Blocking mobile internet on smartphones improves sustained attention](https://academic.oup.com/pnasnexus/article/4/2/pgaf017/8016017) (PNAS Nexus Study)
 * **Objective:** Measuring the cognitive focus of 467 participants (aged 18-30) during a period of restricted data access.
 * **Methodology:** A complete blocking of mobile internet for two weeks, allowing only voice calls and SMS messages.
 * **Mental Outcomes:** Participants experienced a significant increase in focus and self-control.
@@ -214,6 +215,14 @@ Based on the synthesis of our data analysis and the aforementioned scientific re
 
 > **Note:** These solutions are designed to address the usage patterns identified in our analysis, focusing on intentional engagement rather than the complete abandonment of digital tools.
 
+
+## Web Application
+
+You can explore our complete project, interactive features, and everything related to our findings through our dedicated web application:
+
+🌐 **[Visit the Data Reapers Web App](https://data-reapers.vercel.app/)**
+
+---
 ## Team Members
 
 <div align="center" style="width: 100%;">
